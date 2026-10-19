@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGOTIPOS PARA EMPRENDIMIENTOS</title>
+     <link rel="icon" type="image/x-icon"  href="img/Itsec-sucre.jpg">
+   
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3eb990;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        h1 {
+            color: #0f0a0a;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        p.subtitulo {
+            color: #131212;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .contenedor-logos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .tarjeta-logo {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 320px;
+            width: 100%;
+        }
+
+        .tarjeta-logo h2 {
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* ==========================================
+           CONTENEDOR DE LA IMAGEN DEL LOGOTIPO
+           ========================================== */
+        .contenedor-imagen-logo {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+            border-radius: 50%; /* Puedes cambiar a '8px' si tu logo es cuadrado */
+            overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            background-color: #eee; /* Color de fondo mientras carga la imagen */
+            transition: transform 0.3s ease;
+        }
+
+        .contenedor-imagen-logo:hover {
+            transform: scale(1.05); /* Efecto zoom al pasar el cursor */
+        }
+
+        /* Estilo de la etiqueta de la imagen */
+        .contenedor-imagen-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la imagen para que llene el espacio sin deformarse */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Logotipos para Emprendimientos</h1>
+    <p class="subtitulo">Versión con soporte para cargar tus propias imágenes</p>
+
+    <div class="contenedor-logos">
+
+        <!-- TARJETA 1: GASTRONOMÍA (Con Imagen) -->
+        <div class="tarjeta-logo">
+            <div class="contenedor-imagen-logo">
+                <!-- REEMPLAZA 'tu-logo-gastronomia.jpg' con la ruta de tu archivo o enlace de internet -->
+                <img src="img/logo_gastronomia.jpg" alt="logo_gastronomia">
+            </div>
+            <h2>1. Gastronomía ("Sabor & Arte")</h2>
+            
+        </div>
+
+        <!-- TARJETA 2: ROPA / MODA (Con Imagen) -->
+        <div class="tarjeta-logo">
+            <div class="contenedor-imagen-logo" style="border-radius: 8px;">
+                <!-- REEMPLAZA 'tu-logo-ropa.jpg' con la ruta de tu archivo o enlace de internet -->
+                <img src="img/logo_tienda.jpg" alt="logo_tienda">
+            </div>
+            
+        </div>
+
+    </div>
+   
+    
+    <h2>logotipo</h2>
+    <p>se trabajo con gemini, el promn que le di es el siguiente:
+        porfavor quiero que me lo realices un codigo en html para logotipos para el area de gastronomia 
+        y ropa en el codigo que este detallado que hace cada linea y codigo para insertar imagen.
+        una ves enviado el promt nos genero el codigo que podemos observar en la parte superior.
+    </p>
+    <h2>partes o analisis del promt</h2>
+    <p>Solicitud técnica: Desarrollo de código en HTML.
+    Contexto / Temática: Enfocado en los sectores de gastronomía y ropa.
+    Requisito didáctico: Explicación paso a paso de lo que realiza cada línea de código.
+    Instrucción específica de programación: Inclusión del código exacto para insertar imágenes (<img>).
+    Solicitud de diseño visual: Generación de 2 imágenes de logotipos personalizadas.
+    Tono / Cortesía: Uso de fórmulas de cortesía (por favor)</p>
+
+
+</body>
+</html>
